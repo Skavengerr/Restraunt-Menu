@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
         alignSelf: 'flex-end',
     },
     sum: {
-        fontSize: 26,
+        fontSize: 30,
         fontWeight: '600',
     },
     right: {

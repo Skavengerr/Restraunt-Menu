@@ -18,7 +18,7 @@ export default class App extends Component {
                 <View style={styles.content}>
                     <MenuList />
                 </View>
-                <FooterButton />
+                <FooterButton style={styles.footer} />
             </Container>
         )
     }
@@ -29,14 +29,17 @@ const styles = StyleSheet.create({
         backgroundColor: '#F6FAFF',
     },
     header: {
-        flex: 2,
+        flex: 3,
         minHeight: 100,
     },
     description: {
-        flex: 1,
+        flex: 2,
         marginVertical: 20,
     },
     content: {
-        flex: 3,
+        flex: 5,
     },
+    footer: {
+      flex: 1
+    }
 })
